@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: "montserrat", sans-serif;
+    background: #000;
+  }
+  
+  header {
+    padding: 50px 15px 0px;
+  }
+  header h1 {
+    color: #fff;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 600;
+  }
+  main {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  .search_box_wrap {
+    margin-top: 30px;
+  }
+  .searchbox {
+    display: block;
+    width: 100%;
+    padding: 15px;
+  
+    border: none;
+    background: none;
+    outline: none;
+  
+    background-color: #ccc;
+    border-radius: 8px;
+  
+    color: #52565a;
+    font-size: 20px;
+    font-weight: 300;
+  
+    transition: 0.4s ease-out;
+  }
+  .searchbox:focus {
+    box-shadow: 0px 0px 8px 3px #4484c4;
+  }
+  .results {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+  }
+  .result {
+    width: 33.333%;
+    min-width: 250px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+  }
+  .result:hover h3 {
+    background: #fff;
+    color: #111;
+    transition: 0.2s ease-out;
+  }
+  .result img {
+    display: block;
+    width: 100%;
+  }
+  .result h3 {
+    color: black;
+    font-size: 22px;
+    font-weight: 600;
+    padding: 10px;
+    background: #fff;
+    flex: 1 1 100%;
+    transition: 0.4s ease-out;
+  }
+  .popup {
+    margin: 30px 0;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #52565a;
+    color: #fff;
+    padding: 20px;
+    overflow-y: hidden;
+  }
+  .popup_topContent {
+    text-align: center;
+  }
+  .popup_topContent span {
+    font-size: 20px;
+  }
+  .popup_main_content {
+    display: flex;
+    justify-content: space-between;
+    vertical-align: middle;
+  }
+  .popup_leftContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 20px 30px;
+    vertical-align: top;
+    width: 50%;
+  }
+  .popup_leftContent img {
+    width: 100%;
+    display: block;
+  }
+  .popup_leftContent button {
+    padding: 20px;
+    background-color: skyblue;
+    width: 100px;
+    min-height: 54px;
+    margin: 40px auto;
+    font-size: 20px;
+    font-weight: 600;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  .popup_rightContent {
+    width: 50%;
+    vertical-align: top;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  h2,
+  h3,
+  h4,
+  h5 {
+    word-spacing: 5px;
+    line-height: 37px;
+  }
+  p {
+    line-height: 36px;
+  }
+  .particles {
+    position: fixed !important;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
+  
