@@ -42,3 +42,8 @@ img {
   -webkit-transform: translateZ(0)!important; /* Chrome, Safari, Opera */
   transform: translateZ(0)!important;
 }
+@media(min-width:720px){
+  .results{
+    display:none;
+  }
+}

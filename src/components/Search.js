@@ -1,7 +1,8 @@
 import React from "react";
+import './Results.css';
 const Search = ({ handleChnage, fetchData, value }) => {
   return (
-    <section className="search_box_wrap">
+    <section className="search_box_wrap search-bar">
        
       <input
         type="text"
